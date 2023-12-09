@@ -1,3 +1,81 @@
-body{
+:root {
+    --color-black: #000000;
+    --color-blue: #142251;
+    --color-gray: #989EB1;
+  }
+  
+  body {
+    font-weight: 400;
     font-family: "Poppins";
-}
+    color: var(--color-blue);
+  }
+  
+  .highlight {
+    color: var(--color-gray);
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  .font {
+    color: var(--color-black);
+    font-weight: 600;
+  }
+  
+  .uni {
+    font-size: 4rem;
+    line-height: 85%;
+    font-weight: 400;
+  }
+  
+  .unis {
+    font-size: 1.4rem;
+    line-height: 100%;
+    font-weight: 400;
+  }
+  
+  .oform_button{
+    display: flex;
+    width: 335px;
+    height: 60px;
+    padding: 24px 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: rgba(33, 56, 135, 0.06);
+
+  }
+  .oform_button2{
+    display: flex;
+    width: 275px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--142251, #142251);
+  }
+  .razb {
+    font-size: 2.0rem;
+    font-weight: 400;
+    line-height: 120%;
+  }
+  
+  .pol {
+    font-size: 2.0rem;
+    font-weight: 600;
+    line-height: 140%;
+  }
+  
+  .posl {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 130%;
+  }
+  .ser{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 100%;
+  }
